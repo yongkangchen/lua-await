@@ -14,7 +14,6 @@ local function sync_test()
         print("sync wait 1 sec, start time: " .. os.time())
         sleep(1000)
         print("sync wait 1 sec, done time: " .. os.time())
-        slepp(2000)
     end)()
 end
 
